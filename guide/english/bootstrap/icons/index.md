@@ -63,6 +63,17 @@ _Note: Do not include the dot in the HTML Class Attribute, referring to the clas
 
 _Note: Bootstrap's Glyphicons icon is not avalable on bootstrap V4_
 
+### Bootstrap Icon in Error Alert
+
+An icon used in an alert to convey that it's an error message, with additional .sr-only text to convey this hint to users of assistive technologies.
+
+```html
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+  <span class="sr-only">Error:</span>
+  Enter a valid email address
+```
+
+
 ### More Information:
 
 - [Bootstrap Glyphicons Icons Doc](https://getbootstrap.com/docs/3.3/components/#glyphicons)

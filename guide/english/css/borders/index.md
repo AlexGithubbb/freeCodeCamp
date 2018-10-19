@@ -55,7 +55,7 @@ Or you can style them all at once:
 ```css
   border-style: solid dashed double dotted;
 ```
-As shown, the border property allows you to select different sections of it. [top, bottom, left, right]
+As shown, the border property allows you to select different sections of it. [top, bottom, left, right], this is the same order about margin and padding setting.
 
 ### Border Width
 

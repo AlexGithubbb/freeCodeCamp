@@ -104,7 +104,16 @@ Here's some sample code on how to define and assign grid areas
     grid-area: foot;
 }
 ```
-
+You can also adjust the gap between any grid items.
+``` 
+.containers{
+  display: grid;
+  grid-template-column: 100px 100px 200px;
+  grid-template-row: 100px 100px;
+  grid-gap-column: 20px;
+  grid-gap-row: 20px;
+}
+```
 ### The `fr` unit
 Grid introduces a new `fr` unit, which stands for _fraction_. The good thing about using the `fr` unit is that it takes care of calculations for you. Using `fr` avoids margin and padding issues. With `%` and `em` etc. it becomes a math equation when calculating `grid-gap`. If you used `fr` unit, it’ll automatically calculate both column and gutter sizes and adjust the size of the columns accordingly, plus there will be no bleeding gaps at the end either.
 
